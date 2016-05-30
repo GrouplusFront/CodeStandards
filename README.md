@@ -23,3 +23,4 @@ code satandards for Grouplus fronter
   2. 当input的hidden控件中,要保存与wiki中相同的字段时,必须命名为`hid_字段值`
   3. 当觉得id命名需要增加控件类型时,例如`btn` `input` 等,必须加在id最前面
 3. blade.php: 命名必须为下划线分割
+4. 拒绝用样式来作为选择器绑定任何事件.
