@@ -14,8 +14,11 @@ code satandards for Grouplus fronter
 
 ## 2. html & js
 
-1. 文件名 & 对象 : 若js文件只要功能为为export的对象(例如BasicInfo.js/MoreInfo.js),采用大写驼峰开头,若为html引用的非对象js,采用小写开头驼峰(?现在很多都是以_分割命名js,这里有争议)
+1. 文件名 & 对象 : 
+  1. 若js为对象js(例如BasicInfo.js/MoreInfo.js),采用大写驼峰开头
+  2. 若为非对象js,采用小写开头驼峰(?现在很多都是以_分割命名js,这里有争议)
 2. 控件的id取值  : 
-  1. id应该与wiki中的属性一致
+  1. id与wiki中的属性有直接关系时候,id与wiki中的属性一致
   2. 当input的hidden控件中,要保存与wiki中相同的字段时,必须命名为`hid_字段值`
-  3. 当感觉id命名需要增加控件类型时,例如`btn` `input` 等,必须加在id最前面
+  3. 当觉得id命名需要增加控件类型时,例如`btn` `input` 等,必须加在id最前面
+3. blade.php: 命名必须为下划线分割
