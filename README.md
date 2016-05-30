@@ -4,6 +4,7 @@ code satandards for Grouplus fronter
 ## 0. 约定规则
 
 1. 变量: 永远不用-来作为分隔符,均采用_分割,除css
+2. 复制粘贴,需要谨慎!
 
 ## 1. PHP
 
