@@ -23,6 +23,6 @@ code satandards for Grouplus fronter
   1. id与wiki中的属性有直接关系时候,id与wiki中的属性一致
   2. 当input的hidden控件中,要保存与wiki中相同的字段时,必须命名为`hid_字段值`
   3. 当觉得id命名需要增加控件类型时,例如`btn` `input` 等,必须加在id的最前面
-3. blade.php     : 命名必须为下划线分割
+3. blade.php     : 命名必须为下划线分割(争议?采用小写开头驼峰)
 4. 选择器        : 尽可能少的使用一连串.class来作为选择器
 5. 控件属性顺序  : id>class 
