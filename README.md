@@ -14,6 +14,7 @@ code satandards for Grouplus fronter
 4. 顺序         : 命名变量/class/方法时,主要采取`实体-具体操作`,例如给活动修改基本信息的方法应该命名为`basicInfoUpdate`
 5. `@include()` : 有相同的html代码,尽量用include进行模块化.但注意,模块间的嵌套尽量控制在3层内,极度情况下最多使用4层
 6. Model声明接口: 声明接口字符串与wiki中应该一致,不要使用字符串拼接,而使用字符串替换
+7. route表      : 前端的action请求名必须和Controller方法名称一样;
 
 ## 2. html & js
 
