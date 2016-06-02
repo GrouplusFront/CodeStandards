@@ -16,6 +16,7 @@ code satandards for Grouplus fronter
 6. Model声明接口: 声明接口字符串与wiki中应该一致,不要使用字符串拼接,而使用字符串替换
 7. Model参数调用: 当接口url中需要的参数,都单独占一个参数,其他的params参数在controller整理好后才统一给Model传
 7. route表      : 前端的action请求名必须和Controller方法名称一样
+8. json返回     : err_code和后台一致,err_msg替换为中文信息,
 
 ## 2. html & js
 
