@@ -11,7 +11,7 @@ code satandards for Grouplus fronter
 1. 文件名 & 类名: 均采用大写驼峰开头
 2. 变量         : 下划线编码,尽量与后端wiki保持一致
 3. 方法         : 小写开头驼峰
-4. 顺序         : 命名变量/class/方法时,主要采取`动宾结构`,例如给活动修改基本信息的方法应该命名为`basicInfoUpdate`
+4. 顺序         : 命名变量/class/方法时,主要采取`动宾结构`,例如给活动修改基本信息的方法应该命名为`updateBasicInfo`
 5. `@include()` : 有相同的html代码,尽量用include进行模块化.但注意,模块间的嵌套尽量控制在3层内,极度情况下最多使用4层
 6. Model声明接口: 声明接口字符串与wiki中应该一致,不要使用字符串拼接,而使用字符串替换(商量)
 7. Model参数调用: 当接口url中需要的参数,都单独占一个参数,其他的params参数在controller整理好后才统一给Model传
